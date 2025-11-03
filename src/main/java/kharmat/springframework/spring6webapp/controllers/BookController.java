@@ -1,10 +1,8 @@
 package kharmat.springframework.spring6webapp.controllers;
 
-import ch.qos.logback.core.model.Model;
-import kharmat.springframework.spring6webapp.domain.Book;
 import kharmat.springframework.spring6webapp.services.BookService;
 import org.springframework.stereotype.Controller;
-import org.springframework.stereotype.Service;
+import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
 
 @Controller
